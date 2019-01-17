@@ -1,0 +1,39 @@
+.statistics-money {
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background: #eee;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.statistics-text {
+  position: relative;
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  &:hover .statistics-info {
+    display: block;
+  }
+}
+
+.statistics-info {
+  position: absolute;
+  display: none;
+  font-size: 14px;
+  bottom: 0;
+  left: 50%;
+  white-space: nowrap;
+  transform: translate(-50%, 100%);
+  color: #aaa;
+  background: #fff;
+}
+
+.statistics-button {
+  font-size: 22px !important;
+  padding: 0 40px !important;
+  height: 80px !important;
+  line-height: 80px !important;
+}

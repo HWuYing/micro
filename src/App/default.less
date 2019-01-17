@@ -1,0 +1,80 @@
+@import '~antd/lib/style/themes/default.less';
+
+body,
+html,
+div[id='app'] {
+  height: 100%;
+  width: 100%;
+}
+
+*[data-hidden-label='true'] {
+  display: none !important;
+}
+*[data-hidden-label='false'] {
+  display: block;
+}
+
+:global {
+  body,
+  html,
+  #app {
+    height: 100%;
+    width: 100%;
+  }
+
+  #app {
+    display: flex;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-1 {
+    flex: 1;
+  }
+
+  .flex-row {
+    flex-direction: row;
+  }
+
+  .flex-column {
+    flex-direction: column;
+  }
+
+  .align-item-center {
+    align-items: center;
+  }
+
+  .justify-content-center {
+    justify-content: center;
+  }
+
+  .page-component {
+    flex: 1;
+  }
+
+  .f30 {
+    font-size: 30px;
+  }
+
+  .f24 {
+    font-size: 24px;
+  }
+
+  .f20 {
+    font-size: 20px;
+  }
+
+  .f18 {
+    font-size: 18px;
+  }
+
+  .f16 {
+    font-size: 16px;
+  }
+
+  .f14 {
+    font-size: 14px;
+  }
+}
